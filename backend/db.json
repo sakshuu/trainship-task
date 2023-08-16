@@ -1,0 +1,11 @@
+{
+  "auth": [
+    {
+      "name": "Sakshi Jadhav",
+      "email": "sakshisjadhav.120@gmail.com",
+      "password": "123",
+      "cPassword": "123",
+      "id": 1
+    }
+  ]
+}

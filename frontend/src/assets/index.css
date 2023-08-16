@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.img-signup{
+    width: 90%;
+}
+.logo{
+    width: 60px;
+}
