@@ -1,10 +1,22 @@
 import React from 'react'
-import Register from './pages/Register'
+import { BrowserRouter, Routes, Route,  } from "react-router-dom";
+import { About, Home, Login, Register } from './pages';
+import {  MyNavbar } from './components';
 
 const App = () => {
-  return (
-    <Register/>
-  )
+  return <>
+     <BrowserRouter>
+     <Routes>
+    <Route path='/' element={<MyNavbar/>}>
+    <Route index element={<Home/>}/>
+    <Route path='/about' element={<About/>} />
+    <Route path='/signup' element={<Register/>} />
+    <Route path='/login' element={<Login/>} />
+    </Route>
+    <Route path='*' element={<h1>Page Not Found</h1>} />
+     </Routes>
+     </BrowserRouter>
+  </>
 }
 
 export default App

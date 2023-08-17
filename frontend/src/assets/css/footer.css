@@ -1,0 +1,10 @@
+.mainfooter{
+    padding: 80px;
+    width: 100vw;
+    background-color: #404040;
+    color: aliceblue;
+}
+.contactsection{
+    margin-top: 20px;
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sakshuu/trainship-task-1.git",
+  "author": "sakshi jadhav <sakshisjadhav.120@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \" cd frontend && yarn start \" \" cd backend && json-server --watch --port=5000 db.json \" "
+  },
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

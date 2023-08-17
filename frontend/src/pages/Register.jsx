@@ -1,18 +1,20 @@
 import React, { useState } from 'react'
-import "./../assets/index.css"
-import  logo from "./../assets/logo.jpeg";
-import  Mobile_login  from "./../assets/Mobile_login.jpg";
+import "./../assets/css/index.css"
+import  logo from "./../assets/img/logo.jpeg";
+import  Mobile_login  from "./../assets/img/Mobile_login.jpg";
 import { register } from '../redux/actions/authAction';
 import { useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 
 const Register = () => {
 
   const dispatch = useDispatch()
+  const navigate = useNavigate()
   const [signIn, setsignIn] = useState({
     name:"",
-email:"",
-password:"",
-cPassword:""
+    email:"",
+    password:"",
+    cPassword:""
 })
   return  <>
   <div class="container-fluid mt-4 ">
@@ -22,8 +24,8 @@ cPassword:""
             </div>
           <div class="col-md-6 col-sm-12">
             <div class="d-block justify-content-center gap-2 m-4">
-              <div class="d-flex justify-content-center"><img  src={logo} class="logo" alt=""/></div>
-              <h4 class="text-center mt-2">Signup </h4>
+            <div class="d-flex justify-content-center"><img  src={logo} class="logo" alt=""/></div>
+            <h4 class="text-center mt-2">Signup </h4>
             </div>
             <div className="card-body">
                 <div>
@@ -82,7 +84,10 @@ cPassword:""
                     Please Recheck Your Password.
                   </div>
                 </div>
-                <button type="button" onClick={e => dispatch(register(signIn))} className="btn btn-primary w-100 mt-3">
+                <button type="button" onClick={e => {dispatch(register(signIn))
+              navigate("/")  
+              }
+                } className="btn btn-primary w-100 mt-3">
                   Signup
                 </button>
                 <p className="text-center mt-3">
