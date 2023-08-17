@@ -13,6 +13,27 @@
       "password": "123",
       "cPassword": "123",
       "id": 2
+    },
+    {
+      "name": "varsha sharma",
+      "email": "sakshisjadhav.120@gmail.com",
+      "password": "123",
+      "cPassword": "123",
+      "id": 3
+    },
+    {
+      "name": "kate ",
+      "email": "kate@gmail.com",
+      "password": "123",
+      "cPassword": "123",
+      "id": 4
+    },
+    {
+      "name": "rinkal",
+      "email": "rinkal@gmail.com",
+      "password": "123",
+      "cPassword": "123",
+      "id": 5
     }
   ]
 }
