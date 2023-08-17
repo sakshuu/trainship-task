@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import "./../assets/css/index.css"
 import  logo from "./../assets/img/logo.jpeg";
 import  Mobile_login  from "./../assets/img/Mobile_login.jpg";
 import { register } from '../redux/actions/authAction';
