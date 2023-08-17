@@ -1,8 +1,12 @@
 .mainfooter{
-    padding: 80px;
+    /* padding: 4px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* margin: 10px; */
     width: 100vw;
-    background-color: #404040;
-    color: aliceblue;
+    /* background-color: #404040; */
+    background-color: #F5F5F5;
+    /* color: aliceblue; */
 }
 .contactsection{
     margin-top: 20px;
