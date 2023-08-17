@@ -6,7 +6,7 @@ const MyNavbar = () => {
   return (<>
 <nav className="navbar navbar-expand-lg bg-dark navbar-dark p-2">
         <div className="container">
-            <Link to="/" className="navbar-brand">SKILLHUB</Link>
+            <Link to="/" className="navbar-brand">Navigation Bar</Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
                 <span className="navbar-toggler-icon"></span>
             </button>
