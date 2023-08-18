@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route,  } from "react-router-dom";
-import { About, Home, Login, Register } from './pages';
+import {  Home, Login, Register, Table, Testinomial } from './pages';
 import {  MyNavbar } from './components';
 import "./assets/css/index.css"
 
@@ -10,7 +10,8 @@ const App = () => {
      <Routes>
     <Route path='/' element={<MyNavbar/>}>
     <Route index element={<Home/>}/>
-    <Route path='/about' element={<About/>} />
+    <Route path='/table' element={<Table/>}/>
+    <Route path='/test' element={<Testinomial/>} />
     <Route path='/signup' element={<Register/>} />
     <Route path='/login' element={<Login/>} />
     </Route>
