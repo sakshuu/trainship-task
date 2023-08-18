@@ -16,15 +16,15 @@ const Register = () => {
     cPassword:""
 })
   return  <>
-  <div class="container-fluid mt-4 ">
-        <div class="row p-2">
-          <div class="col-md-6 d-flex justify-content-center">
-            <img src={Mobile_login} class="img-signup d-md-inline d-none d-sm-none" alt=""/>
+  <div className="container-fluid mt-4 ">
+        <div className="row p-2">
+          <div className="col-md-6 d-flex justify-content-center">
+            <img src={Mobile_login} className="img-signup d-md-inline d-none d-sm-none" alt=""/>
             </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="d-block justify-content-center gap-2 m-4">
-            <div class="d-flex justify-content-center"><img  src={logo} class="logo" alt=""/></div>
-            <h4 class="text-center mt-2">Signup </h4>
+          <div className="col-md-6 col-sm-12">
+            <div className="d-block justify-content-center gap-2 m-4">
+            <div className="d-flex justify-content-center"><img  src={logo} className="logo" alt=""/></div>
+            <h4 className="text-center mt-2">Signup </h4>
             </div>
             <div className="card-body">
                 <div>

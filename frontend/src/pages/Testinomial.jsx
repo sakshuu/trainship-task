@@ -54,10 +54,8 @@ const Testinomial = () => {
       >
 
         {
-          reviewData.map(item =>
-            <SwiperSlide className='my-4'>
+          reviewData.map(item => <SwiperSlide key={item?.id} className='my-4'>
               <div className="container">
-
               <div className="row">
                 <div className="col-md-3 col-sm-12">
                   <div className='center'>
@@ -70,11 +68,11 @@ const Testinomial = () => {
       {item?.subtitle}
     </div>
     <div className='star'>
-      <span><i class="bi bi-star-fill"></i></span>
-      <span><i class="bi bi-star-fill"></i></span>
-      <span><i class="bi bi-star-fill"></i></span>
-      <span><i class="bi bi-star-fill"></i></span>
-      <span><i class="bi bi-star"></i></span>
+      <span><i className="bi bi-star-fill"></i></span>
+      <span><i className="bi bi-star-fill"></i></span>
+      <span><i className="bi bi-star-fill"></i></span>
+      <span><i className="bi bi-star-fill"></i></span>
+      <span><i className="bi bi-star"></i></span>
     </div>
     <div >
       <p>

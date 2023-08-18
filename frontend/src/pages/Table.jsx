@@ -17,7 +17,7 @@ useEffect(() => {
 <div className="row">
   <div className="col-md-8">
     <div className="table-responsive-sm">
-  <table class="table table-hover">
+  <table className="table table-hover">
     <thead>
       <tr>
         <th scope="col">sr.no</th>
@@ -28,11 +28,11 @@ useEffect(() => {
     </thead>
     <tbody>
         {
-            dataSignup?.map((item,i) => <tr>
+            dataSignup?.map((item,i) => <tr key={item?.id}>
         <th scope="row">{i+1}</th>
         <td>{item?.name}</td>
         <td>{item?.email}</td>
-        <td><button type="button" class="btn btn-primary">Delete</button></td>
+        <td><button type="button" className="btn btn-primary">Delete</button></td>
       </tr>)
         }
     </tbody>
