@@ -15,7 +15,7 @@ useEffect(() => {
   {/* {JSON.stringify(dataSignup)} */}
   <div className="container mt-4">
 <div className="row">
-  <div className="col-md-8">
+  <div className="col-md-8 col-sm-3">
     <div className="table-responsive-sm">
   <table className="table table-hover">
     <thead>
