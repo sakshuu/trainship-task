@@ -57,13 +57,13 @@ const Testinomial = () => {
           reviewData.map(item => <SwiperSlide key={item?.id} className='my-4'>
               <div className="container">
               <div className="row">
-                <div className="col-md-3 col-sm-12">
+                <div className="col-md-4 col-sm-12">
                   <div className='center'>
                   <img src={item?.img} alt="" className='profile'/>
                   </div>
                   <h6 className="title center text">{item?.title}</h6>
                 </div>
-                <div className="col-md-9 col-sm-12">
+                <div className="col-md-8 col-sm-12">
                 <div className="subtitle text">
       {item?.subtitle}
     </div>
