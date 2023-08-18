@@ -28,7 +28,7 @@ const Register = () => {
             </div>
             <div className="card-body">
                 <div>
-                  <label htmlFor="name" className="form-label">First name</label>
+                  <label htmlFor="name" className="form-label">Full name</label>
                   <input
                     type="text"
                     className="form-control"
@@ -41,7 +41,7 @@ const Register = () => {
                   <div className="invalid-feedback">Please choose a username.</div>
                 </div>
                 <div className="mt-2">
-                  <label htmlFor="email" className="form-label">First Email</label>
+                  <label htmlFor="email" className="form-label">Email</label>
                   <input
                     type="text"
                     className="form-control"
@@ -84,7 +84,7 @@ const Register = () => {
                   </div>
                 </div>
                 <button type="button" onClick={e => {dispatch(register(signIn))
-              navigate("/")  
+              navigate("/table")  
               }
                 } className="btn btn-primary w-100 mt-3">
                   Signup
