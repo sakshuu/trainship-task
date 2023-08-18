@@ -50,9 +50,7 @@ const Testinomial = () => {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
-      >
-
+        className="mySwiper">
         {
           reviewData.map(item => <SwiperSlide key={item?.id} className='my-4'>
               <div className="container">
